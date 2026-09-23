@@ -1,0 +1,96 @@
+LOCUS       pORNEK1                 3000 bp    DNA     circular SYN 01-SEP-2026
+DEFINITION  Sentetik ornek plazmit, Biyoenformatige Giris dersi.
+ACCESSION   pORNEK1
+VERSION     pORNEK1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  sentetik yapi
+            .
+FEATURES             Location/Qualifiers
+     source          1..3000
+                     /organism="sentetik yapi"
+                     /mol_type="genomic DNA"
+     promoter        181..209
+                     /note="sigma70 benzeri promotor (-35/-10)"
+     RBS             222..227
+                     /note="Shine-Dalgarno dizisi"
+     CDS             235..1134
+                     /gene="ornA"
+                     /product="ornek protein A"
+                     /translation="MISNASIRLGTAFILVQYPRAAVVTYSRHTANLHAGFRRFVITAV
+                     SGITVYHCGASTSASKPERGPTEGPKCRSLTRPGLSLVSRSVDGHASFEYLLRSVAHPC
+                     ISLTHCLIYLAAGRPNLCPSLIPSQPHCAVCHDKDFITIVRLDYIVLGVLLSNTQMRVI
+                     HGAPLDDPRVDPPVLHHQMTVIPTVEFYVSIIVLHVAYDAQTSIQMPSHKVERHKNDQV
+                     FRGWYLTWKAQLLLPSNQFWLTSTRLTAGGNSSSAFHTITDYRAASAMYDRLFLHWARH
+                     AANAVTFYIGIQGTRISD"
+                     /codon_start=1
+                     /transl_table=11
+     misc_feature    1195..1200
+                     /note="EcoRI kesim yeri"
+     CDS             complement(1321..1920)
+                     /gene="ornB"
+                     /product="ornek protein B"
+                     /translation="MPSGLLTTSTTRTVVPSRDNADDPGTRPWGFYRWFVNQAHPTAEI
+                     SGLMCTPCDPTYHAMSRCDYSAAGGDNALGSVHNSHVYHFPPKSWSAGRTSVGNTVDIR
+                     RLPRPHVPYFAATCNSRYANGTHLGRLALRHIYETPRTQGGALDGHKMRANKIHFIYRY
+                     QQPTKLVRSRREVMEDSGSPTRWVKRNLFTWPARAR"
+                     /codon_start=1
+                     /transl_table=11
+     misc_feature    2001..2006
+                     /note="BamHI kesim yeri"
+     misc_feature    2157..2162
+                     /note="HindIII kesim yeri"
+     misc_feature    2981..2986
+                     /note="EcoRI kesim yeri (2)"
+ORIGIN
+        1 gacaggtaca agaaggagta tgcatcaatg tggtcgtgtg gaacaaacgc cactggagac
+       61 tgggttaacc attcgctcca gcgtcatgaa agtcactgtt agggcgacct tcgattcgga
+      121 tgtgacattt cattacatta cgctcaggac tgcgaacgaa agattaagaa tgcttaaccc
+      181 ttgacaggta cctaacccat ctgtataata tttttacaca caggaggtct ccttatgata
+      241 tctaacgcta gcattagact ggggactgca tttatcctcg tacaatatcc tagggcggcg
+      301 gttgtcactt attcgaggca tacggccaac ttgcatgcag gtttccgacg ctttgtcata
+      361 acagccgtat ctggaattac ggtatatcat tgcggtgcgt ccacttcagc atcaaagccg
+      421 gagcgtgggc ctacagaagg ccccaaatgc cggtcgctta cgcgtcctgg attatctctc
+      481 gtcagccgta gtgtggacgg ccacgcttcc ttcgagtatc tgctccgttc ggtggcccac
+      541 ccatgcattt ctttgaccca ctgtctaatt tacctcgcag ctgggcgacc caacctttgc
+      601 ccaagtctta tcccgtccca accccactgt gcggtatgtc acgataaaga ctttataacc
+      661 attgtgcggc ttgattacat tgtactgggc gtccttctat caaacaccca gatgcgcgta
+      721 attcatgggg cccctctgga tgacccgcgt gttgatcccc cggtactcca ccatcaaatg
+      781 actgtgatac caactgttga gttttacgta agtataatcg ttctgcacgt ggcctacgac
+      841 gcgcagacgt ctatacagat gcctagtcat aaagtcgaga gacacaagaa tgatcaggta
+      901 tttagaggat ggtaccttac gtggaaagca cagctgctgc tacccagtaa tcaattttgg
+      961 ctgacttcga cacgccttac agcaggaggt aatagcagct ccgcatttca taccattact
+     1021 gattaccggg cggcgtcagc tatgtatgac cgactattcc tacattgggc ccgtcatgca
+     1081 gctaatgctg ttacgtttta catcggaatc caagggacca ggattagtga ttaaacgcac
+     1141 ctaactgtaa aacaatgttc ccccgcgtgg aagtgattgt agcctcttcc caacgaattc
+     1201 acaccacgaa gcgcgagcgt ccgattctgc cttacccgat cattttgttt ataacttgaa
+     1261 gatacatcca ttcgcatttc ttcataggct gaccacgccg cgcgtcgggc ggaaataagc
+     1321 tcagcgtgca cgtgctggcc atgtgaagag gttacgctta acccagcgtg tcggggaccc
+     1381 agaatcttcc atgacctctc gtctactacg aacaagttta gttggctgtt ggtatctata
+     1441 gataaaatgg attttattcg cgcgcatctt atgcccgtca agggcaccac cctgagtacg
+     1501 cggagtttcg tagatgtgcc gtagcgcaag acgccctagg tgggtaccat tagcgtacct
+     1561 gctattacag gtcgctgcaa aatatggcac atgaggcctg gggagccgtc ggatgtcaac
+     1621 ggtgtttcca acgcttgtgc gccctgcgct ccaacttttc ggggggaaat ggtatacgtg
+     1681 actgttgtgt acagacccca acgcgttatc gccaccagca gccgaataat cgcaacggga
+     1741 cattgcgtgg taagtaggat cgcacggcgt gcacatcagc ccgctgattt ctgccgtcgg
+     1801 atgcgcctga ttcacgaacc aacggtaaaa cccccacggc cgagtcccgg gatcatcggc
+     1861 attatctctg gaaggaacaa ccgtacgggt ggtagaggtt gtcagcaaac cgctaggcat
+     1921 gcctatcgcc accatgatag gatctgaaca atatgcgggt gtctcccgtg cacaccgtag
+     1981 cgtgatgagg tctttagagt ggatccggct ctgagccgcc ttgaagtcgg agaggcagtt
+     2041 taggactcta tactgggggt ggaaggtgac gtgttaattt aggcttgcaa gtacctggaa
+     2101 acgtattttc cccaacagca atcttcgtaa atgctaaagg atcggggcac gaggctaagc
+     2161 ttgtgatacc gcaagagtac cgtgtcaagt aattccctca gctagctccc tcagctcacc
+     2221 tacacccgac cgtgcgtagc ggaatgcaag ctaacccaac cctaagtatg aggtaaaagt
+     2281 tttgggccag gacattaccg ctatacgccc gacacgatgg tagttgcata tgcaatcgga
+     2341 gggagtctat attcaggatg gcatccgacc catctcctga aacaattctt ttgaatctca
+     2401 ccagacgtgc aaacccaagc cccgtggaac tgcagcaagt gatatccgtg ggcgcacacc
+     2461 ttggcgtgaa cggtctagga cccaggctgg ggtcctcggg tgtcctcctt tggccgtgcg
+     2521 gtcctaatat ggatcgcaga ataaaccgat tagtcgtcca tgagtatctt attagtcacg
+     2581 tccggtagct cgggaccgag gccccatcta ccccggccag cagtttggtc atcctcgttt
+     2641 ttggtggcta ttagatcggc tcaacgggca caaacggatt ccaaggtctc tcattatatc
+     2701 attttcgcca caattaggtt aagcgtaacg ttatatggtt attgccggga ggacgcggcc
+     2761 agaatacacc gcccaccgta cgaatggaat ctaaggttgg cacccgcctc tgtcacatga
+     2821 gggcaagagt ctcggcgcag atttgtataa agaaacagtt gagcaggcgg ctatgagcct
+     2881 atcagctatg acccggatgc ttttatggct gcggataaat ttcggtggcg tgagcaaagg
+     2941 gtcgtcagca gctcaaccta ccatctaacg gaaggttact gaattcggta ggaccaacct
+//
